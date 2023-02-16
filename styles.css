@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(5, 5, 97);
+}
+.center-box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 300px;
+    height:320px;
+    text-align: center;
+    color:black;
+}
+.text-field{
+    padding: 10px 30px;
+    margin: 10px 0;
+    border:2px solid rgb(24, 24, 167);
+    border-radius: 10px;
+    font-size: 12pt;
+    color:black;
+}
+.btn-style{
+    margin:2px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size:14pt;
+    background-color: white;
+    color: blue;
+}
+.btn-style:hover{
+    background-color: blue;
+    color:white;
+}
+.an-btn{
+    margin: 5px;
+    border: 0px;
+    font-size:14pt;
+    background-color: rgb(5, 5, 97);
+    color: white;
+}
+.an-btn:hover{
+    background-color: blue;
+    color:white;
+}
+#register-div{
+    display: none;
+}
+#result-box{
+    display: none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:14pt;
+    color:white;
+}
+
+
